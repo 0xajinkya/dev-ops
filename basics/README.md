@@ -1,46 +1,46 @@
-## Kubernetes & MiniKube Commands
+# Kubernetes & MiniKube Commands
 
-# Apply YAML
+## Apply YAML
 ```bash
 kubectl apply -f file_name.yaml
 ```
 
-# Get Pods
+## Get Pods
 ```bash
 kubectl get pods
 ```
 
-# Get Detailed Info About Pods
+## Get Detailed Info About Pods
 ```bash
 kubectl get pods -o wide
 ```
 
-# Get Services
+## Get Services
 ```bash
 kubectl get service
 ```
 
-# Get Deps
+## Get Deps
 ```bash
 kubectl get deployment
 ```
 
-# Get ConfigMaps
+## Get ConfigMaps
 ```bash
 kubectl get configmap
 ```
 
-# Get Secrets
+## Get Secrets
 ```bash
 kubectl get secret
 ```
 
-# Minikube IP
+## Minikube IP
 ```bash
 minukube ip
 ```
 
-# Run A Service
+## Run A Service
 ```bash
 minikube service webapp-service
 ```
